@@ -5,3 +5,10 @@ const cardId3 = document.getElementById('card-id-3')
 const cardId4 = document.getElementById('card-id-4')
 const cardId5 = document.getElementById('card-id-5')
 const cardId6 = document.getElementById('card-id-6')
+
+/* add event  */
+function colorRandom(id){
+    let rgbColor = Math.floor(Math.random()*1000000);
+    let bgColor = '#' + rgbColor;
+    id.style.background = '' + bgColor
+}
