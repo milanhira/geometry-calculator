@@ -12,3 +12,24 @@ function colorRandom(id){
     let bgColor = '#' + rgbColor;
     id.style.background = '' + bgColor
 }
+
+//set mouse over event for all card
+cardId1.addEventListener('mouseover', ()=>{
+    colorRandom(cardId1)
+})
+
+cardId2.addEventListener('mouseover', ()=>{
+   colorRandom(cardId2)
+})
+cardId3.addEventListener('mouseover', ()=>{
+   colorRandom(cardId3)
+})
+cardId4.addEventListener('mouseover', ()=>{
+   colorRandom(cardId4)
+})
+cardId5.addEventListener('mouseover', ()=>{
+   colorRandom(cardId5)
+})
+cardId6.addEventListener('mouseover', ()=>{
+   colorRandom(cardId6)
+})
